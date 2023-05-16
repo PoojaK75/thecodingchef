@@ -1,0 +1,107 @@
+.webname {
+color: #000000;
+font-family: monospace;
+}
+
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+background-color: #B22222;
+color: #000000;
+}
+
+.nav-links a {
+color: #000000;
+}
+
+/* NAVBAR MENU */
+.menu {
+display: flex;
+gap: 1em;
+font-size: 18px;
+text-align: center;
+}
+
+.menu li:hover {
+background-color: #4c9e9e;
+border-radius: 5px;
+transition: 0.3s ease;
+}
+
+.menu li {
+padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.recipes {
+position: relative;
+}
+
+.dropdown {
+background-color: rgb(1, 139, 139);
+padding: 1em 0;
+position: absolute; /*WITH RESPECT TO PARENT*/
+display: none;
+border-radius: 8px;
+top: 35px;
+}
+
+.dropdown li + li {
+margin-top: 10px;
+}
+
+.dropdown li {
+padding: 0.5em 1em;
+width: 8em;
+text-align: center;
+}
+
+.dropdown li:hover {
+background-color: #4c9e9e;
+}
+
+.recipes:hover .dropdown {
+display: block;
+}
+
+.mainpara{
+    font-family: Georgia;
+}
+
+.dish{
+    font-family: Arial;
+
+}
+
+img{
+padding: 10px;
+float: right;
+}
+
+.collapsible {
+  background-color: #FF6347;
+  color: white;
+  font-family: cursive;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #FF6347;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
