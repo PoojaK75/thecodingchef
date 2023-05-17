@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+    <title>Home</title>
+</head>
+<body>
+<div class="webname"><h1><center>THE CODING CHEF</center></h1></div>
+    <nav class="navbar">
+        <ul class="nav-links">
+<!-- USING CHECKBOX HACK -->
+        <div class="menu">
+           <li class="recipes"><a href="/">RECIPES</a>
+           <ul class="dropdown">
+           <li><a href="breakfast">BREAKFAST</a></li>
+           <li><a href="rice">RICE</a></li>
+           <li><a href="vegrecipes">VEG</a></li>
+           <li><a href="nonvegrecipes">NON VEG</a></li>
+           </ul></li>
+            <li><a href="aboutus">ABOUT US</a></li>
+            <li><a href="contactus">POST YOUR RECIPE</a></li>
+        </div>
+    </nav>
+</body>
+</html>
