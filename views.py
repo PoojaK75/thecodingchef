@@ -43,7 +43,7 @@ def go_to_nonveg():
 
 @views.route("/go-to-aboutus")
 def go_to_aboutus():
-    return redirect(url_for("views.aboutus"))
+    return redirect(url_for("aboutus"))
 
 @views.route("/go-to-contactus")
 def go_to_contactus():
